@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Car</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/master.css">
+</head>
+
+<body>
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#4CAF50"></li>
+                    <li data-color="#FF9800"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Background Random</h4>
+                <div class="background-option">
+                    <span class="yes active" data-option="yes">Yes</span>
+                    <span class="no" data-option="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullet</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="yes">Show</span>
+                    <span class="no" data-display="no">Hide</span>
+                </div>
+            </div>
+            <button class="rest-option">Rest Option</button>
+        </div>
+    </div>
+    <div class="nav-bullet">
+        <div class="bullet active" data-sec=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-sec=".cars">
+            <div class="tooltip">Our Cars</div>
+        </div>
+        <div class="bullet" data-sec=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-sec=".timeline">
+            <div class="tooltip">Time Line</div>
+        </div>
+        <div class="bullet" data-sec=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-sec=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="header-area">
+            <div class="logo">Your Car</div>
+            <div class="links-container">
+                <ul class="links">
+                    <li><a href="#" data-sec=".about-us">About</a></li>
+                    <li><a href="#" data-sec=".cars">Cars</a></li>
+                    <li><a href="#" data-sec=".gallery">Gallery</a></li>
+                    <li><a href="#" data-sec=".timeline">Time Line</a></li>
+                    <li><a href="#" data-sec=".features">Features</a></li>
+                    <li><a href="#" data-sec=".testimonials">Testimonials</a></li>
+                </ul>
+                <button type="reset" class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>Welcome to <span>Your Car</span> Exhibition</h1>
+            <p>We take pride in offering you the best experience to choose your perfect car. Whether you’re looking for
+                a new or used
+                vehicle, we’re here to assist you in making the right decision.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>In our exhibition, you’ll find a diverse range of cars from various brands and categories. We always
+                    strive to provide
+                    the best deals and services to our valued customers.
+
+                    Enjoy browsing our exhibition, and feel free to inquire about any car that catches your interest.
+                    We’re here to serve
+                    you and make your experience exceptional.
+
+                    Thank you for visiting, and we look forward to seeing you at our exhibition</p>
+            </div>
+            <div class="img-box">
+                <img src="imgs/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            <h2>Our Cars</h2>
+            <div class="skill-box">
+                <div class="skill-name">BMW</div>
+                <div class="skill-progress">
+                    <span style="width: 0;" data-progress="30%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Mercedes</div>
+                <div class="skill-progress">
+                    <span style="width: 0;" data-progress="20%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Nissan</div>
+                <div class="skill-progress">
+                    <span style="width: 0;" data-progress="15%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Toyota</div>
+                <div class="skill-progress">
+                    <span style="width: 0;" data-progress="10%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Other</div>
+                <div class="skill-progress">
+                    <span style="width: 0;" data-progress="25%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <h2>Guaranteed used cars</h2>
+            <div class="img-box">
+                <img src="imgs/01.jpg" alt="Mercedes G Class">
+                <img src="imgs/02.jpg" alt="BMW">
+                <img src="imgs/03.jpg" alt="Ferrari">
+                <img src="imgs/04.jpg" alt="Honda">
+                <img src="imgs/05.jpg" alt="Ferrari">
+                <img src="imgs/06.jpg" alt="Range Rover">
+                <img src="imgs/07.jpg" alt="Bugatti">
+                <img src="imgs/08.jpg" alt="Mercedes">
+                <img src="imgs/09.jpg" alt="Ferrari">
+                <img src="imgs/10.jpg" alt="Audi">
+            </div>
+        </div>
+    </div>
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2005</div>
+                <div class="left">
+                    <div class="content">
+                        <h2>Exhibition Opening</h2>
+                        <p>The first day of the show.<br>
+                            Official opening with the presence of VIPs and media.<br>
+                            Presentation of new cars and innovative technologies.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2010</div>
+                <div class="right">
+                    <div class="content">
+                        <h2>New Car Showcases</h2>
+                        <p>Introduction of new models from various manufacturers.<br />Test drive sessions for visitors
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2017</div>
+                <div class="left">
+                    <div class="content">
+                        <h2>Classic Car Auction</h2>
+                        <p>Display of rare and classic cars for sale<br />Historical details for each car</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h2>Entertainment Events</h2>
+                        <p>Simulation races and challenges for visitors<br />Live music performances and family
+                            activities.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div>
+                <div class="right">
+                    <div class="content">
+                        <h2>VIP Section</h2>
+                        <p>Exclusive tours for VIPs and potential buyers<br />Private test drives of luxury cars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/features-1.jpg" alt="features-1-image">
+                <h3>Reserve the car with the click of a button</h3>
+                <p>Reserve the car through a payment deducted from the price of the car</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/features-2.jpg" alt="features-2-image">
+                <h3>Secure electronic payment methods</h3>
+                <p>Secure electronic payment methods to pay for the car (through the SADAD service)</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/features-3.jpg" alt="features-3-image">
+                <h3>We do all the procedures</h3>
+                <p>An employee dedicated to serving you will contact you to complete the transfer of ownership,
+                    insurance and warranty</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/features-4.jpg" alt="features-4-image">
+                <h3>We deliver the car to your home</h3>
+                <p>Check the car for 10 days, and if it does not suit you, you can return it and get its price back</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/features-5.jpg" alt="features-5-image">
+                <h3>Renewing and preparing the car</h3>
+                <p>In order for you to receive it in excellent condition, we carry out comprehensive maintenance of the
+                    car and prepare it
+                    to the fullest extent by professional technicians in specialized centers equipped with the latest
+                    technologies.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/features-6.jpg" alt="features-6-image">
+                <h3>Financing options</h3>
+                <p>We provide you with multiple financing options through different financing parties.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-box">
+                <p>The service is excellent. Quick response, good behavior, and appreciated effort in completing
+                    transactions. all the
+                    respect and appreciation. </p>
+                <div class="person-info">
+                    <img src="imgs/Testimonuls.png" alt="">
+                    <h4>Mazen Tabikh</h4>
+                    <p>CEO We & You</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>TFrankly speaking, it was a very excellent experience. The interview representative, cooperation and
+                    service were beyond
+                    excellent. Thank you </p>
+                <div class="person-info">
+                    <img src="imgs/Testimonuls.png" alt="">
+                    <h4>Asmaa Said</h4>
+                    <p>Accounting</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>The service is excellent. Quick response, good behavior, and appreciated effort in completing
+                    transactions. all the
+                    respect and appreciation. </p>
+                <div class="person-info">
+                    <img src="imgs/Testimonuls.png" alt="">
+                    <h4>Lana Amina</h4>
+                    <p>Other</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="contact-us">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" name="username" placeholder="Enter Your Name">
+                    <input type="text" name="phone" placeholder="Enter Your phone">
+                    <input type="email" name="email" placeholder="Enter Your email">
+                    <input type="text" name="subject" placeholder="Enter Your subject">
+                </div>
+
+                <div class="right">
+                    <textarea name="message" placeholder="Enter Your Maessage"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+    <script src="javaScript/script.js"></script>
+</body>
+
+</html>
