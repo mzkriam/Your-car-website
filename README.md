@@ -10,13 +10,7 @@ Welcome to my Car Showroom, a dynamic website meticulously designed using HTML, 
 - **Car Details**: Dedicated pages for each car with detailed information and high-quality images.
 - **Interactive User Interface**: Smooth user experience with engaging interactive effects.
 
-## How to Use
 
-To run the site locally, follow these steps:
-
-1. Clone the repository to your local machine:
-git clone https://github.com/mzkriam/Your-car-website.git
-
-2. Open the `index.html` file in your browser.
+![screencapture-127-0-0-1-5501-2024-04-08-18_02_41](https://github.com/mzkriam/Your-car-website/assets/73972415/0e5907e1-f5c0-4d21-8d72-c3efc30cf590)
 
 
